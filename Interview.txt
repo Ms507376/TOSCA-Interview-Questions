@@ -1,0 +1,96 @@
+Q1) What is Tosca?
+    Tosca is a software tool for the automated execution of functional and regression software testing.
+    It supports graphical user interface,application programming interface and command-line interface. 
+
+2)  What are the advantages of using Tosca ?
+      Script less automation.
+      Model based automation,we do not need to write framework for this.It is already present.
+      Can be integrated with HP ALM, can run selenium scripts.
+      Test management and manual testing is also present.
+      Reusability of assets and copy-paste features for test cases and modules.
+      Tosca provides its own query language same as SQL called as TQL.
+      
+3)  What are the various ways to identify objects in Tosca Testsuite?
+    Identify by properties
+    Identify by Anchor
+    Identify by image
+    Identify by index
+    
+ 4) Explain the types of errors available in Tosca? 
+ 
+    Verification-Failure:This occurs when verification does not provide the expected results.In simple words, the value expected by test case specification does 
+    not match the value given by the test object.
+    User Abort    : Abort of the test execution by the user.
+    Dialog-Failure: The application wants to get control of either that doesn’t exist or is not in an operational state.
+    
+    
+5) What are the main components of Tosca?
+
+   The major components available in Tosca are:
+   Tosca Commander.
+   Tosca Executor.
+   Tosca XScan (Tosca Wizard)
+   Test Repository.
+   
+6) How to run Tests using ExecutionLists?
+   ExecutionLists in Tosca can be executed either by pressing the F6 key in the execution section or by selecting the Run option from the context menu.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
