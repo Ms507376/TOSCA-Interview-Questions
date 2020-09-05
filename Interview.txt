@@ -27,9 +27,9 @@ Q1) What is Tosca?
 5) What are the main components of Tosca?
 
    The major components available in Tosca are:
-   Tosca Commander.
-   Tosca Executor.
-   Tosca XScan (Tosca Wizard)
+   Tosca Commander. ( Actual work is done here)
+   Tosca Executor. ( Test cases ffrom commander is executed here)
+   Tosca XScan (Tosca Wizard) ( Used to scan the application and Create Module)
    Test Repository.
    
 6) How to run Tests using ExecutionLists?
