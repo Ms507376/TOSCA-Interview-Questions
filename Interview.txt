@@ -46,6 +46,116 @@ Q1) What is Tosca?
   If we have  already scanned  web page but there is some change and  two new fiels are added which we need to incorporate in same test case.
   so to get these 2 fields in already scanned module we need to re-scan.
   
+10 ) what are the dynamic expression  avilable in TOSCA ?
+      Random numbers {RND[<Number of Digits>]}
+      Random Text    {RANDOMTEXT[<Number of Characters>]}
+      
+      Date Expressions : {DATE} -----> {DATE[][][ddMMyyyy]}
+      Add 3 months and substract 1 day
+      The expression +3M-1d means that three months are added to the base date and one day is deducted-----> {DATE[23.05.2016][+3M-1d][]} -- DD.MM.YYYY
+     
+      Time Expressions : {TIME} ---->hh:mm ( hour and minute)
+      
+11) What is Library parameter where we can define them ?
+    Library paramter is nothing but business paramter which is used to paas the dynamic values in test step blocks.
+    e.g library is created for Username and password 
+       if we want to use Different username and password in differnt Tcs so at that time we can do by using business paramter.
+       
+       
+12) String operation in tosca ?
+    String opeartion like counting the character , Replacing of one word by other word ,verfying format of number .
+    For these string operation we need AidPack downloaded and imported in the project.
+
+13 ) How will you validate the pdf ?Can we compare pdf using tosca ?
+     Tricentis has Aidpack engine which provides standard module TC pdf compare to compare pdf files.
+     we can provide base file path and new file path.
+     
+     
+14 ) Differnece between executing the test case from scratch book and Execution list ?
+     ScratchBook : When we construct the testcase at that time we execute testcase by scratchbook ( Here, deatiled logs are not saved).
+     Execution list : Once the testcase is ready then we execute from executionlist ( Here , detailed logs are saved).
+     Jenkin execute the test cases from execution list.
+     
+     
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
+      
+     
+      
+      
+      
+      
+      
+      
+      
+
+  
+  
   
   
   
