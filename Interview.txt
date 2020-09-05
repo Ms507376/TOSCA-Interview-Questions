@@ -34,6 +34,23 @@ Q1) What is Tosca?
    
 6) How to run Tests using ExecutionLists?
    ExecutionLists in Tosca can be executed either by pressing the F6 key in the execution section or by selecting the Run option from the context menu.
+   
+7) How does Indentify by anchor works in tosca testsuite ?
+  Identify by Anchor means Identify the object/ element uniquely by taking the refrence of other uniquely identified object/element.
+  
+8) How to Take the screenshot in TOSCA?
+   By using standrad module TBOX TakesScreenshot.
+   
+9) Why Re-Scan ? What is the advantage of Re-Scan ?
+  Scanning the already scanned module is called Re-Scan .
+  If we have  already scanned  web page but there is some change and  two new fiels are added which we need to incorporate in same test case.
+  so to get these 2 fields in already scanned module we need to re-scan.
+  
+  
+  
+  
+
+
 
 
 
