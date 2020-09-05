@@ -76,6 +76,52 @@ Q1) What is Tosca?
      Execution list : Once the testcase is ready then we execute from executionlist ( Here , detailed logs are saved).
      Jenkin execute the test cases from execution list.
      
+15 ) Explain Synchronization in TOSCA ? where is setting for synchronization ?
+     Synchronization means matching the application speed with automation tool speed.
+     Synchronization setting is done under setting ---> TBOX ---> synchronization
+     
+16 ) How data driven testing is achieved in TOSCA testsuite ?
+     Data driven testing in TOSCA Testsuite can be achieved by using testsheet in TestCaseDesign Section.
+     
+     
+     
+     
+     
+     
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
      
     
 
