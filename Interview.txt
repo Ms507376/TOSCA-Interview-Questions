@@ -91,6 +91,43 @@ Q1) What is Tosca?
      Use XL paths to manually assign the TestSheet values to the required TestStepValue.
      Instantiate the Testcase Template.
      
+18 ) What is TestData Mangement ( tdm) ?
+      Test Data Mangement is used to manage the test data for execution.
+      TOSCA uses same same database as common reposiotory does for test data management for DB2,oracle ,MS SQl server repository.
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
      
      
      
