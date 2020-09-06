@@ -82,6 +82,25 @@ Q1) What is Tosca?
      
 16 ) How data driven testing is achieved in TOSCA testsuite ?
      Data driven testing in TOSCA Testsuite can be achieved by using testsheet in TestCaseDesign Section.
+     we create an attribute and various instances for each attribute and finally generate the instances.
+     create a template from our testcase and then attached testdata sheet to template and then instantiate the template.
+
+17)  what is template in TOSCA?
+     TestCase templates form the basis of our Tosca BI tests.When we Right cick on testcase get option convert to template .
+     Drag appropriate Testdata sheet and drop on testcase template.
+     Use XL paths to manually assign the TestSheet values to the required TestStepValue.
+     Instantiate the Testcase Template.
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
      
      
      
