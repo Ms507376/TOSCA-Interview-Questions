@@ -96,6 +96,221 @@ Q1) What is Tosca?
       TOSCA uses same same database as common reposiotory does for test data management for DB2,oracle ,MS SQl server repository.
       
       
+19 ) What is TQL and why it is used ?
+      Tosca query language it is used to query in our tosca project to find anything which we want.
+      There are various functions and expression are avilable to write TQL.
+      
+20 ) How will you fetch data from Excel using Tosca?
+     There are two ways.
+     1) To import data from an external source, we can use Excel Engine.
+     2) For a single test scenario ,Tosca provides a feature of TemplateInstances to create any number of test cases from our  data set 
+        to import our excel's data and embed it in Test Case steps.
+    
+21 ) Explain how you can use multiple browsers within the same test case?
+      Using buffers,change the Test Configuration Parameters at Run-Time by the following steps.
+     1. Change the Value of Test Configuration Parameter to {B[Browser]} or any other Buffer Name we prefer
+     2. Use a TBOX Set Buffer to specify which Browser needs to be used.
+     
+22)  What are the steps to perform Tosca Connect - HP ALM Tosca Integration?
+     Installation of REST API
+     Installation of Tasktop with the License Key
+     TestCases sync from TOSCA to Test Plan Module in HP ALM
+     Execution List sync from TOSCA to Test Lab Module in HP ALM
+     Execution Entry and Latest Test Result sync from TOSCA to Test Lab/Test Runs Modules in HP ALM.
+     
+
+23 ) Which looping statements are available in Tosca?
+     To run TestSteps with branches, Tosca supports IF, DO and WHILE Statements.
+     
+24 ) What does Tosca CI do? And how can it be implemented?
+    Tosca continuous integration triggers the automated Tosca TestCases without user input.It helps to reduce testing time for continuous integration and delivery.
+    Tosca CI can be implemented by either of the below-mentioned ways:
+    1) Run the test execution via Remote Service through a separate execution workspace.
+    2) Use Tosca Continuous Integration together with Tosca Distributed Execution. 
+    
+25 ) What is the advantage of linking test cases to requirements in Tosca Testsuite?
+     To keep track of the requirements we link the test cases in Tosca.
+     This lets us know how many requirements are covered, how many more are needed and also to check for how many requirements the test cases are passed successfully. 
+     This actually helps us to give a high-level picture of requirement coverage.
+     
+26 ) when to use MATH  and when to use CALC  function 
+     To perform calculations in our tests,  we use the expressions CALC or MATH.
+      Use CALC if you have Microsoft® Excel installed.
+      Use MATH if we do not have Microsoft® Excel installed.
+      
+       The syntax {CALC[2x2+5]} returns the result 9
+       The syntax {MATH[2x2+5]} returns the result 9.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+     
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
       
 
 
