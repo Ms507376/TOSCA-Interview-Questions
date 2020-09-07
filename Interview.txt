@@ -40,6 +40,7 @@ Q1) What is Tosca?
   
 8) How to Take the screenshot in TOSCA?
    By using standrad module TBOX TakesScreenshot.
+   Using dokusnapper ( Enable through TOSCA Setting).
    
 9) Why Re-Scan ? What is the advantage of Re-Scan ?
   Scanning the already scanned module is called Re-Scan .
@@ -140,6 +141,8 @@ Q1) What is Tosca?
       
        The syntax {CALC[2x2+5]} returns the result 9
        The syntax {MATH[2x2+5]} returns the result 9.
+       
+
 
 
 
