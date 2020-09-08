@@ -149,6 +149,186 @@ Q1) What is Tosca?
      Setting --->TBOX---> Recovery 
      
      
+28) Difference between Buffer and XBuffer ?
+    Buffers are temporarily saved  to  the section Buffer of the Settings dialog underSettings-->engine
+    Action Mode will be Buffer.{B[Buffername]}
+    
+    XBuffer :The XBuffer allows us to read dynamic values of a string and to buffer them using the action mode verify.
+    {XB[Buffername]}
+    
+29 ) What is Test Configuration  Paramter?
+     It is used to set some specific value to number of test cases .
+     example : Url , Browser,Username and Password.
+     It can be created at root level using configuration option and can be drag and drop at whichever the level it's needed.
+     
+30 )  What is Business Parameter ? Explain a scenario for usage ?
+      It is used to paas dynamic Values in test step block.
+      Creation --> Right click on Resusable test Block -->select Create business Parameter container from context menu.
+      For few test cases if we want to use different username and password in that case we use Business Parameter.
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+  
+    
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
      
      
      
