@@ -40,7 +40,7 @@ Q1) What is Tosca?
   
 8) How to Take the screenshot in TOSCA?
    By using standrad module TBOX TakesScreenshot.
-   Using dokusnapper ( Enable through TOSCA Setting).
+   Using dokusnapper ( Enable through TOSCA Setting).It is used to take screenshot at runtime execution.
    
 9) Why Re-Scan ? What is the advantage of Re-Scan ?
   Scanning the already scanned module is called Re-Scan .
@@ -166,7 +166,25 @@ Q1) What is Tosca?
       Creation --> Right click on Resusable test Block -->select Create business Parameter container from context menu.
       For few test cases if we want to use different username and password in that case we use Business Parameter.
       
-      
+31 ) Can you list component of TOSCA-Server?
+     TOSCA Administration console ,Tosca Event monitor ,Tosca distibution server,Tosca License administration.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       
       
       
