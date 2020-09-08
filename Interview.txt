@@ -142,6 +142,48 @@ Q1) What is Tosca?
        The syntax {CALC[2x2+5]} returns the result 9
        The syntax {MATH[2x2+5]} returns the result 9.
        
+27 ) Explain Recovery and clean up Scenarios ?
+     Recovery scenario is set of test steps to ensure next test case execution after the failed test case run properly.
+     In Recovery scenario we can re-try at TestCase level ,Teststep level and Teststep Value level.
+     There is 2 condition where we can recover scenario on Dialog failure and on Verification failure.
+     Setting --->TBOX---> Recovery 
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
 
 
 
