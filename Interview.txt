@@ -168,6 +168,30 @@ Q1) What is Tosca?
       
 31 ) Can you list component of TOSCA-Server?
      TOSCA Administration console ,Tosca Event monitor ,Tosca distibution server,Tosca License administration.
+     
+32) What is tricentis cloud ?
+    Tricentis Cloud services enable the users to access and update the common repository in the cloud.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
