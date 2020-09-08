@@ -172,7 +172,20 @@ Q1) What is Tosca?
 32) What is tricentis cloud ?
     Tricentis Cloud services enable the users to access and update the common repository in the cloud.
 
+33 )How to handle the scrolling behaviour in Tosca?
+  Jump to module attribute of Test Case and then select  Steering paramter ( Green Box) 
+  named "ScrollingBehavior" with the value "Bottom" for the attribute. Please find screenshot below for  reference
+   
+        
+        Name                                        Value 
+        ScrollingBehavior                           Bottom
+        ScrollingBehavior                            Top 
+        ScrollingBehavior                           Centre
+                      
+    
 
+
+    
 
 
 
