@@ -156,6 +156,9 @@ Q1) What is Tosca?
     XBuffer :The XBuffer allows us to read dynamic values of a string and to buffer them using the action mode verify.
     {XB[Buffername]}
     
+    TC Partial Buffer  : This Module allows parts of a value to be either written to a buffer variable or to be verified.
+    Action mode we use input and verify for TC partial buffer.
+    
 29 ) What is Test Configuration  Paramter?
      It is used to set some specific value to number of test cases .
      example : Url , Browser,Username and Password.
