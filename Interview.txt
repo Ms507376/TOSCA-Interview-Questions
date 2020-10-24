@@ -206,8 +206,18 @@ Q1) What is Tosca?
 
    RadioButton    Input               <control name>           Select a RadioButton
                   Verify              <control name>           Verifies whether the specified RadioButton is selected (Selected)
+                  
+   
+
+37 ) what are the steering parameter in tosca ?
+38) what is firevent in tosca ?
+39 ) Excel file read all modules name which is present in tosca?
+40 ) Repetition in tosca ?
+41 ) how to execut same test case 2 times in tosca ?
 
 
+
+      
 
 
 
