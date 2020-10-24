@@ -176,14 +176,82 @@ Q1) What is Tosca?
     Tricentis Cloud services enable the users to access and update the common repository in the cloud.
 
 33 )How to handle the scrolling behaviour in Tosca?
-  Jump to module attribute of Test Case and then select  Steering paramter ( Green Box) 
-  named "ScrollingBehavior" with the value "Bottom" for the attribute. Please find screenshot below for  reference
+    Jump to module attribute of Test Case and then select  Steering paramter ( Green Box) 
+    named "ScrollingBehavior" with the value "Bottom" for the attribute.Please find screenshot below for  reference
    
         
         Name                                        Value 
         ScrollingBehavior                           Bottom
         ScrollingBehavior                            Top 
         ScrollingBehavior                           Centre
+        
+34)    what are the type of waits in tosca?
+       Static wait( TBox Wait )  : Static wait is done with module TBox wait and test execution is paused for time specified.
+       Dynamic Wait( WaitOn)     : For a dynamic wait we use the action mode WaitOn .waitOn it pauses the execution of Testcase until respective Control provides
+                                   the value or  property  specified in value field.
+                                   
+35 ) Difference between Do and WHILE statement in Tosca ?
+      Do loop    - It executes the body first and then verify for condition.
+      While loop - First verify the condition and then execute body if required.
+      
+36) Control groups in tosca ?
+     Link, button and radio button controls are grouped in Tosca.
+    Link         ActionMode            Value                 Description
+                  Input              <control name>          Select a link
+                  Verify             <control name>          Verifies whether the specified link exists (Exists)
+    
+    Button        Input               <control name>          Select a button       
+                  Verify              <control name>          Verifies whether the specified button exists (Exists)
+                  WaitOn              <control name>          Waits until the specified button exists (Exists)
+
+   RadioButton    Input               <control name>           Select a RadioButton
+                  Verify              <control name>           Verifies whether the specified RadioButton is selected (Selected)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+      
+     
+     
+      
+       
+  
+       
                       
     
 
