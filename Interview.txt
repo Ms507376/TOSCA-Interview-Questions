@@ -221,6 +221,84 @@ Q1) What is Tosca?
      onmouseover, onmouseout, onsubmit, onreset
 
 39 ) Excel file read all modules name which is present in tosca?
+       a) open file 
+           Resource   :
+           FilePath   :
+           ContentType:
+           
+        b) TBOX file existence
+           Directory    :C:\Users\Moni singh\Downloads\
+           File         :DatadrivenTesting Sample TestParameters.csv or !=DatadrivenTesting Sample TestParameters.csv ( Action mode - verify)
+         
+        c ) TBox Read/Create File
+            Directory  :
+            File       :
+            Text       :
+            
+        d) TBox Open Excel Workbook
+            Workbook Name  : Automation RegressionPack Details
+            Path           : C:\Users\Moni singh\Downloads\Automation RegressionPack Details.xlsx
+            Create New     : false or true
+            
+        e) TBox Define Excel Range
+            Workbook Name    : DatadrivenTesting Sample TestParameters(input)
+            Worksheet Name   : DatadrivenTesting Sample TestParameters(input)
+            Range Name       : any name 
+            Data Range       : Select
+                               Start Cell : A1
+                               End   Cell : D2
+        f) TBox Excel Range Manipulation( Row Count)
+            Range Name : Any Name ( Csv data table count)
+            Data Table : .RowCount->RC ( Buffer) OR
+            Data Table : .ColumnCount->CC( Buffer)
+            
+ 40 )            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+           
+           
+            
+      
 
 
 
