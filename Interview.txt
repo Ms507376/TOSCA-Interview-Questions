@@ -208,10 +208,24 @@ Q1) What is Tosca?
                   Verify              <control name>           Verifies whether the specified RadioButton is selected (Selected)
                   
    
-
 37 ) what are the steering parameter in tosca ?
+     steering parameters which are avilable in tosca :
+     Scrolling behaviour - value (Bottom ,top ,centre)- jump to module attribute - Properties -  green color(Create  steering parameter context menu) 
+     User simulation     - value ( true or false )- Checbox selected if true
+     FireEvent           - Change
+     Send Keys Delay     - 100(will input the value at small lag) 
+     
 38) what is firevent in tosca ?
+     It is steering parameter in tosca .
+     The possible values of FireEvent are:onchange ,onclick ,ondblclick,onblur,onfocus,onmousedown,onmouseup,
+     onmouseover, onmouseout, onsubmit, onreset
+
 39 ) Excel file read all modules name which is present in tosca?
+
+
+
+
+
 40 ) Repetition in tosca ?
 41 ) how to execut same test case 2 times in tosca ?
 
