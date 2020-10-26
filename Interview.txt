@@ -251,40 +251,29 @@ Q1) What is Tosca?
             Range Name : Any Name ( Csv data table count)
             Data Table : .RowCount->RC ( Buffer) OR
             Data Table : .ColumnCount->CC( Buffer)
-            
- 40 )            
-            
-            
-            
-            
-            
-            
-            
+                
+40 )   Repetition in tosca ?
+        Create one Testcase -->Click on + Button Repeatedly 5 times
+        Create on Folder ( Rename)  ---> Loop for 5 times
+        add test step ( Click on Counter Page ) -->( Click on column chooser, select Repetition Property and give the value 5 ) it will be repeated for 5 times.
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+41 )  How to execut same test case 2 times in tosca through execution Entry?
+       We can Repeat the exact same TestCase within the same ExecutionList multiple times.
+       To do so, we define how many times we want to repeat the ExecutionEntry in the ExecutionEntry property Repetitions - 2 ( By choosing column header on Testcase          which is dragged from Scratchbook to Execution List.
+42 )      
+       
+       
+       
+       
+       
+
+
+
+      
             
             
             
-            
-            
-            
+                
             
             
             
@@ -302,14 +291,6 @@ Q1) What is Tosca?
 
 
 
-
-
-40 ) Repetition in tosca ?
-41 ) how to execut same test case 2 times in tosca ?
-
-
-
-      
 
 
 
