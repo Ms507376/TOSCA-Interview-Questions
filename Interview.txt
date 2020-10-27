@@ -260,7 +260,7 @@ Q1) What is Tosca?
 41 )  How to execut same test case 2 times in tosca through execution Entry?
        We can Repeat the exact same TestCase within the same ExecutionList multiple times.
        To do so, we define how many times we want to repeat the ExecutionEntry in the ExecutionEntry property Repetitions - 2 ( By choosing column header on Testcase          which is dragged from Scratchbook to Execution List.
-42 )      
+     
        
        
        
