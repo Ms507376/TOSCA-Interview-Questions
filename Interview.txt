@@ -59,6 +59,7 @@ Q1) What is Tosca?
       
 11) What is Library parameter where we can define them ?
     Library paramter is nothing but business paramter which is used to paas the dynamic values in test step blocks.
+    Navigate to the TestCases tab in Tosca Commander and right-click on the folder where we want to create the TestStepLibrary. 
     e.g library is created for Username and password 
        if we want to use Different username and password in differnt Tcs so at that time we can do by using business paramter.
        
