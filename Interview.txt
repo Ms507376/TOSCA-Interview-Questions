@@ -67,6 +67,12 @@ Q1) What is Tosca?
 12) String operation in tosca ?
     String opeartion like counting the character , Replacing of one word by other word ,verfying format of number .
     For these string operation we need AidPack downloaded and imported in the project.
+     {STRINGLENGTH[Nice2MeetU]}=10
+     {NUMBEROFOCCURRENCES[Mississippi][ss]}=2
+     {STRINGREPLACE[WeekEnd][e][x][IGNORECASE]}=Wxxkxnd
+     {STRINGTOLOWER[Nice Day]}= nice day
+     {STRINGTOUPPER[Nice Day]}=NICE DAY
+     Removes whitespace characters from the start or the end of the string- {TRIM[ no starting space ][START]}  ,{TRIM[ no starting space ][END]}
 
 13 ) How will you validate the pdf ?Can we compare pdf using tosca ?
      Tricentis has Aidpack engine which provides standard module TC pdf compare to compare pdf files.
