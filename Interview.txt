@@ -115,9 +115,10 @@ Q1) What is Tosca?
         to import our excel's data and embed it in Test Case steps.
     
 21 ) Explain how you can use multiple browsers within the same test case?
-      Using buffers,change the Test Configuration Parameters at Run-Time by the following steps.
-     1. Change the Value of Test Configuration Parameter to {B[Browser]} or any other Buffer Name we prefer
-     2. Use a TBOX Set Buffer to specify which Browser needs to be used.
+     In Tricentis Tosca, we  can't directly launch multiple browsers within a single test case execution. However,we can achieve cross-browser testing by using 
+     a test configuration parameter named "Browser" and specifying the desired browser type (e.g., Chrome, Firefox)as the parameter value.Then we can execute the same 
+      test case multiple times, each time with a different browser specified. 
+
      
 22)  What are the steps to perform Tosca Connect - HP ALM Tosca Integration?
      Installation of REST API
