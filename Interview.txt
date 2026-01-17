@@ -89,15 +89,20 @@ Q1) What is Tosca?
      Synchronization setting is done under setting ---> TBOX ---> synchronization
      
 16 ) How data driven testing is achieved in TOSCA testsuite ?
-     Data driven testing in TOSCA Testsuite can be achieved by using testsheet in TestCaseDesign Section.
-     we create an attribute and various instances for each attribute and finally generate the instances.
-     create a template from our testcase and then attached testdata sheet to template and then instantiate the template.
+     Tosca data-driven workflow is a method for running the exact same test steps multiple times,but each time using a different set of input data.
+     Example:login salesforce sandbox with different username and passowrd everytime . here login step will be same but data ( Username and password) will be different.
+     create a module ( e.g data driven) - Scan Username and passowrd 
+     Create a test case and add that module ( don't pass the Username and password value that will be passed through) test sheet.
+     Create test case design > (right click) select create testsheet menu
+     On Testsheet - Click on Create instances menu( that is test case TC1, TC2 , TC3) 
+     on Test sheet - Click on Create attribute ( e.g create an attribute for username and one for passowrd)
+     Inside attribute - Create instances for Username and passowrd ( e.g.UN1 , UN2, UN3 & Pwd1,pwd2,pwd3)  Drag and drop the testsheet to test case created.
+     Give the value  to attribute ( TC1-UN1 , TC2-UN2 ,TC3-UN3 & TC1-pwd1, TC2-pwd2 ,TC3-pwd3)
+     drag and drop the attribute to Test case level where testsheet is attached.  ( Ref video-https://www.youtube.com/watch?v=xGI6M8rznag)
+      click Create template instance(  3 test cases will be created with  3 set of data ( UN and password) then run.
+     
 
-17)  what is template in TOSCA?
-     TestCase templates form the basis of our Tosca BI tests.When we Right cick on testcase get option convert to template .
-     Drag appropriate Testdata sheet and drop on testcase template.
-     Use XL paths to manually assign the TestSheet values to the required TestStepValue.
-     Instantiate the Testcase Template.
+
      
 18 ) What is TestData Mangement ( tdm) ?
       Test Data Mangement is used to manage the test data for execution.
