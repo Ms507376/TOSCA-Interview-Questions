@@ -160,8 +160,11 @@ Q1) What is Tosca?
      In Recovery scenario we can re-try at TestCase level ,Teststep level and Teststep Value level.
      There is 2 condition where we can recover scenario on Dialog failure and on Verification failure.
      Setting --->TBOX---> Recovery 
-     
-     
+
+    Clean up scenario:Cleanup Scenarios are automated sequences of steps run after a Recovery Scenario fails,it is designed to reset the test environment 
+    (like logging out, closing apps,clearing data) so the next test can run cleanly.
+    
+          
 28) Difference between Buffer and XBuffer ?
     Buffers are temporarily saved  to  the section Buffer of the Settings dialog underSettings-->engine
     Action Mode will be Buffer.{B[Buffername]}
