@@ -32,7 +32,7 @@ Q1) What is Tosca?
    Tosca XScan (Tosca Wizard) ( Used to scan the application and Create Module)
    Test Repository.
    
-6) How to run Tests using ExecutionLists?
+6) How to create and run Tests using ExecutionLists?
    ExecutionLists in Tosca can be executed either by pressing the F6 key in the execution section or by selecting the Run option from the context menu.
    
 7) How does Indentify by anchor works in tosca testsuite ?
@@ -125,14 +125,10 @@ Q1) What is Tosca?
       test case multiple times, each time with a different browser specified. 
 
      
-22)  What are the steps to perform Tosca Connect - HP ALM Tosca Integration?
-     Installation of REST API
-     Installation of Tasktop with the License Key
-     TestCases sync from TOSCA to Test Plan Module in HP ALM
-     Execution List sync from TOSCA to Test Lab Module in HP ALM
-     Execution Entry and Latest Test Result sync from TOSCA to Test Lab/Test Runs Modules in HP ALM.
+22)  How to create resusable test step block and it's use?
+     Reusable test step blocks in Tricentis Tosca are created by right-clicking test steps and selecting "Create Reusable TestStepBlock". 
+     These steps are stored in a  TestStepLibrary, allowing them to be used across multiple test cases.
      
-
 23 ) Which looping statements are available in Tosca?
      To run TestSteps with branches, Tosca supports IF, DO and WHILE Statements.
      
