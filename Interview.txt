@@ -100,51 +100,43 @@ Q1) What is Tosca?
      Give the value  to attribute ( TC1-UN1 , TC2-UN2 ,TC3-UN3 & TC1-pwd1, TC2-pwd2 ,TC3-pwd3)
      drag and drop the attribute to Test case level where testsheet is attached.  ( Ref video-https://www.youtube.com/watch?v=xGI6M8rznag)
       click Create template instance(  3 test cases will be created with  3 set of data ( UN and password) then run.
-     
-
-
-     
+       
 18 ) What is TestData Mangement ( tdm) ?
       Test Data Mangement is used to manage the test data for execution.
-      TOSCA uses same same database as common reposiotory does for test data management for DB2,oracle ,MS SQl server repository.
-      
+      TOSCA uses same database as common reposiotory does for test data management for DB2,oracle ,MS SQl server repository.      
       
 19 ) What is TQL and why it is used ?
       Tosca query language it is used to query in our tosca project to find anything which we want.
       There are various functions and expression are avilable to write TQL.
       
 20 ) How will you fetch data from Excel using Tosca?
-     There are two ways.
-     1) To import data from an external source, we can use Excel Engine.
-     2) For a single test scenario ,Tosca provides a feature of TemplateInstances to create any number of test cases from our  data set 
-        to import our excel's data and embed it in Test Case steps.
+     In Tosca, we can fetch data from Excel using two primary methods:
+      1)The Excel Engine 3.0 Modules for direct manipulation within a TestCase.
+      2)TemplateInstances (in TCD) for data-driven testing scenarios.
     
 21 ) Explain how you can use multiple browsers within the same test case?
-     In Tricentis Tosca, we  can't directly launch multiple browsers within a single test case execution. However,we can achieve cross-browser testing by using 
-     a test configuration parameter named "Browser" and specifying the desired browser type (e.g., Chrome, Firefox)as the parameter value.Then we can execute the same 
-      test case multiple times, each time with a different browser specified. 
-
-     
-22)  How to create resusable test step block and it's use?
+     In Tricentis Tosca, we can't directly launch multiple browsers within a single test case execution. However,we can achieve cross-browser testing by using 
+     a test configuration parameter named "Browser" and specifying the desired browser type (e.g. Chrome, Firefox)as the parameter value.
+     Then we can execute the same test case multiple times, each time with a different browser specified. 
+    
+22)  How to create resusable test step block and  what it's use?
      Reusable test step blocks in Tricentis Tosca are created by right-clicking test steps and selecting "Create Reusable TestStepBlock". 
-     These steps are stored in a  TestStepLibrary, allowing them to be used across multiple test cases.
+     These steps are stored in a  TestStepLibrary, allowing them to be used across multiple test cases as references.
      
 23 ) Which looping statements are available in Tosca?
      To run TestSteps with branches, Tosca supports IF, DO and WHILE Statements.
      
-24 ) What does Tosca CI do? And how can it be implemented?
-    Tosca continuous integration triggers the automated Tosca TestCases without user input.It helps to reduce testing time for continuous integration and delivery.
-    Tosca CI can be implemented by either of the below-mentioned ways:
-    1) Run the test execution via Remote Service through a separate execution workspace.
-    2) Use Tosca Continuous Integration together with Tosca Distributed Execution. 
-    
+24 )  what's the use of tosca CI/CD?
+      Tosca CI/CD integration allows automated testing to be embedded directly into DevOps pipelines(e.g., Jenkins, Azure DevOps), 
+      enabling continuous testing without manual intervention. It speeds up software delivery, improves quality Reduces the manual effort.
+
 25 ) What is the advantage of linking test cases to requirements in Tosca Testsuite?
      To keep track of the requirements we link the test cases in Tosca.
-     This lets us know how many requirements are covered, how many more are needed and also to check for how many requirements the test cases are passed successfully. 
+     This lets us know how many requirements are covered, How many requirement test cases are passed successfully and many it's still left. 
      This actually helps us to give a high-level picture of requirement coverage.
      
 26 ) when to use MATH  and when to use CALC  function 
-     To perform calculations in our tests,  we use the expressions CALC or MATH.
+     To perform calculations in our tests, we use the expressions CALC or MATH.
       Use CALC if you have Microsoft® Excel installed.
       Use MATH if we do not have Microsoft® Excel installed.
       
