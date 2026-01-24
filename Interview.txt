@@ -163,24 +163,19 @@ Q1) What is Tosca?
     
     TC Partial Buffer : It Takes a section(like the first 3 characters, the last 5, or everything after a specific word)from an already buffered value.
      Action mode we use input and verify for TC partial buffer.
-    
-29 ) What is Test Configuration  Paramter?
-     It is used to set some specific value to number of test cases .
-     example : Url , Browser,Username and Password.
-     It can be created at root level using configuration option and can be drag and drop at whichever the level it's needed.
-     
-30 )  What is Business Parameter ? Explain a scenario for usage ?
-      It is used to paas dynamic Values in test step block.
-      Creation --> Right click on Resusable test Block -->select Create business Parameter container from context menu.
-      For few test cases if we want to use different username and password in that case we use Business Parameter.
-      
-31 ) Can you list component of TOSCA-Server?
-     TOSCA Administration console ,Tosca Event monitor ,Tosca distibution server,Tosca License administration.
-     
-32) What is tricentis cloud ?
-    Tricentis Cloud services enable the users to access and update the common repository in the cloud.
+          
+ 29 )  Difference between Configuration parameter and business parameter ??
+      Business Parameters (PL) handle dynamic,scenario-specific data (like a user ID or product type) within reusable test blocks,
+      allowing the same block to run with different inputs for different test cases.
+       {PL[<Business Parameter Name>]}
 
-33 )How to handle the scrolling behaviour in Tosca?
+       while Configuration Parameters (CP) manage static,environment-specific settings (like Base URLs or browser versions) that stay constant across 
+       a particular execution environment
+       In Tosca, test configuration parameters (TCPs) are applied to objects (like a TestCase or ExecutionList) and then referenced within TestStepValues
+       using a specific syntax. 
+        The syntax for referencing a Test configuration paramter is {CP[ParameterName]}
+           
+31 )How to handle the scrolling behaviour in Tosca?
     Jump to module attribute of Test Case and then select  Steering paramter ( Green Box) 
     named "ScrollingBehavior" with the value "Bottom" for the attribute.Please find screenshot below for  reference
    
@@ -190,16 +185,16 @@ Q1) What is Tosca?
         ScrollingBehavior                            Top 
         ScrollingBehavior                           Centre
         
-34)    what are the type of waits in tosca?
+32)    what are the type of waits in tosca?
        Static wait( TBox Wait )  : Static wait is done with module TBox wait and test execution is paused for time specified.
        Dynamic Wait( WaitOn)     : For a dynamic wait we use the action mode WaitOn .waitOn it pauses the execution of Testcase until respective Control provides
                                    the value or  property  specified in value field.
                                    
-35 ) Difference between Do and WHILE statement in Tosca ?
+33 ) Difference between Do and WHILE statement in Tosca ?
       Do loop    - It executes the body first and then verify for condition.
       While loop - First verify the condition and then execute body if required.
       
-36) Control groups in tosca ?
+34) Control groups in tosca ?
      Link, button and radio button controls are grouped in Tosca.
     Link         ActionMode            Value                 Description
                   Input              <control name>          Select a link
@@ -213,19 +208,19 @@ Q1) What is Tosca?
                   Verify              <control name>           Verifies whether the specified RadioButton is selected (Selected)
                   
    
-37 ) what are the steering parameter in tosca ?
+35 ) what are the steering parameter in tosca ?
      steering parameters which are avilable in tosca :
      Scrolling behaviour - value (Bottom ,top ,centre)- jump to module attribute - Properties -  green color(Create  steering parameter context menu) 
      User simulation     - value ( true or false )- Checbox selected if true
      FireEvent           - Change
      Send Keys Delay     - 100(will input the value at small lag) 
      
-38) what is firevent in tosca ?
+36) what is firevent in tosca ?
      It is steering parameter in tosca .
      The possible values of FireEvent are:onchange ,onclick ,ondblclick,onblur,onfocus,onmousedown,onmouseup,
      onmouseover, onmouseout, onsubmit, onreset
 
-39 ) Excel file read all modules name which is present in tosca?
+37) Excel file read all modules name which is present in tosca?
        a) open file 
            Resource   :
            FilePath   :
@@ -257,12 +252,12 @@ Q1) What is Tosca?
             Data Table : .RowCount->RC ( Buffer) OR
             Data Table : .ColumnCount->CC( Buffer)
                 
-40 )   Repetition in tosca ?
+38)   Repetition in tosca ?
         Create one Testcase -->Click on + Button Repeatedly 5 times
         Create on Folder ( Rename)  ---> Loop for 5 times
         add test step ( Click on Counter Page ) -->( Click on column chooser, select Repetition Property and give the value 5 ) it will be repeated for 5 times.
         
-41 )  How to execut same test case 2 times in tosca through execution Entry?
+39)  How to execut same test case 2 times in tosca through execution Entry?
        We can Repeat the exact same TestCase within the same ExecutionList multiple times.
        To do so, we define how many times we want to repeat the ExecutionEntry in the ExecutionEntry property Repetitions - 2 ( By choosing column header on Testcase          which is dragged from Scratchbook to Execution List.
 
