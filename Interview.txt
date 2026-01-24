@@ -109,10 +109,15 @@ Q1) What is Tosca?
       Tosca query language it is used to query in our tosca project to find anything which we want.
       There are various functions and expression are avilable to write TQL.
       
-20 ) How will you fetch data from Excel using Tosca?
-     In Tosca, we can fetch data from Excel using two primary methods:
-      1)The Excel Engine 3.0 Modules for direct manipulation within a TestCase.
-      2)TemplateInstances (in TCD) for data-driven testing scenarios.
+20 ) What are different types of Action modes in Tosca? 
+      There are different types of action modes in tosca 
+     Input 
+     Select 
+     Waiton 
+     Buffer 
+     Constraint 
+     Insert 
+     Verify. 
     
 21 ) Explain how you can use multiple browsers within the same test case?
      In Tricentis Tosca, we can't directly launch multiple browsers within a single test case execution. However,we can achieve cross-browser testing by using 
@@ -262,9 +267,9 @@ Q1) What is Tosca?
        To do so, we define how many times we want to repeat the ExecutionEntry in the ExecutionEntry property Repetitions - 2 ( By choosing column header on Testcase          which is dragged from Scratchbook to Execution List.
 
 
-https://www.google.com/search?q=tosca+late+interview+question+asked+for+experienced&rlz=1C1CHBF_enIN928IN928&oq=tosca+late+interview+question+asked+for+&gs_lcrp=EgZjaHJvbWUqBwgCECEYoAEyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigATIHCAUQIRiPAjIHCAYQIRiPAtIBCTE5NTc1ajBqN6gCCLACAfEFmBXTW9FsYiPxBZgV01vRbGIj&sourceid=chrome&ie=UTF-8
 
-https://www.interviewbit.com/tosca-interview-questions/
+
+
 
 
      
