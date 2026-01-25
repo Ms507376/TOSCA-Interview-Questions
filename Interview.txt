@@ -214,18 +214,19 @@ Q1) What is Tosca?
                   
    
 35 ) what are the steering parameter in tosca ?
-     steering parameters which are avilable in tosca :
+     steering parameters - It is a paramter which controls how Tosca performs an action on an object during test execution.
+     Below are  the avilable steering paramter in tosca :
      Scrolling behaviour - value (Bottom ,top ,centre)- jump to module attribute - Properties -  green color(Create  steering parameter context menu) 
      User simulation     - value ( true or false )- Checbox selected if true
-     FireEvent           - Change
+     FireEvent           - Change( Triggers specific browser events  - onclick ,onchange)
      Send Keys Delay     - 100(will input the value at small lag) 
      
 36) what is firevent in tosca ?
-     It is steering parameter in tosca .
+     It is steering parameter ( which Triggers specific browser events  - onclick ,onchange) in tosca .
      The possible values of FireEvent are:onchange ,onclick ,ondblclick,onblur,onfocus,onmousedown,onmouseup,
      onmouseover, onmouseout, onsubmit, onreset
 
-37) Excel file read all modules name which is present in tosca?
+37) Excel file realted all modules name which is present in tosca?
        a) open file 
            Resource   :
            FilePath   :
@@ -258,13 +259,22 @@ Q1) What is Tosca?
             Data Table : .ColumnCount->CC( Buffer)
                 
 38)   Repetition in tosca ?
-        Create one Testcase -->Click on + Button Repeatedly 5 times
-        Create on Folder ( Rename)  ---> Loop for 5 times
-        add test step ( Click on Counter Page ) -->( Click on column chooser, select Repetition Property and give the value 5 ) it will be repeated for 5 times.
+        Repetition in Tosca means performing the same test steps multiple times automatically.
+        Using Repetition property in TestStep we can repeate the execution of test case multiple times in tosca.
+        Select the TestStep
+        Set Repetition value (like 3)
+        Tosca executes that step 3 times.
         
 39)  How to execut same test case 2 times in tosca through execution Entry?
-       We can Repeat the exact same TestCase within the same ExecutionList multiple times.
-       To do so, we define how many times we want to repeat the ExecutionEntry in the ExecutionEntry property Repetitions - 2 ( By choosing column header on Testcase          which is dragged from Scratchbook to Execution List.
+       We can execute the same TestCase multiple times by adding it multiple times as separate Execution Entries in the ExecutionList.
+       To do so, we define how many times we want to repeat the ExecutionEntry in the ExecutionEntry property Repetitions -i.e. 2
+        ( By choosing column header on Testcase which is dragged from Scratchbook to Execution List.)
+
+40) How to generate the report in tosca?
+    We can generate the report in tosca from execution List .
+    select the particular Execution List (Right Click )>Click on Print Report >Select any of the value which we want in report(Executionentries with actual  
+    log,Executionentries with actual log and issues ,Executionentries with details log).
+
 
 
 
