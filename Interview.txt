@@ -275,9 +275,18 @@ Q1) What is Tosca?
     select the particular Execution List (Right Click )>Click on Print Report >Select any of the value which we want in report(Executionentries with actual  
     log,Executionentries with actual log and issues ,Executionentries with details log).
 
+41) How can you handle test execution failures in Tosca?
+    Common ways to handle failures in Tosca
+    a) recovery scenario :It is used to recover from unexpected errors
+      Examples:Application crash ,Unexpected popup,Session timeout
+      Recovery runs automatically when a failure occurs.
+  
+   b) Use Wait / Synchronization
+       Use WaitOn, Retry, or Timeout steering parameters which helps to Prevent false failures.
 
-
-
+   c)  Use Verification instead of Input
+       Use Verify mode to check values without stopping execution
+       Execution continues even if verification fails (based on settings)
 
 
 
